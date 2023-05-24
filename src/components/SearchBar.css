@@ -1,0 +1,94 @@
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./background_search_desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  margin-bottom: 100px;
+}
+
+.searchBar button {
+  padding: 10px;
+}
+
+.filters ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.22rem;
+  color: #fff;
+  list-style: none;
+}
+
+.filters li {
+  cursor: pointer;
+  width: 4.33rem;
+  border-bottom: 1px solid #fff;
+  padding: 0 2.58rem 0.33rem 2.58rem;
+  line-height: 1.13;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.83rem;
+  transition: color 0.25s;
+}
+
+.filters li:hover {
+  color: #d4cfcf;
+}
+
+.filters li:active,
+.filters li:active:hover,
+.filters .active {
+  border-bottom: 1px solid #f0c36c;
+  color: #f0c36c;
+}
+
+.filters button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 70px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.88rem;
+}
+
+.search input {
+  width: 21rem;
+  padding: 0.66rem 1rem;
+  margin-right: 2.22rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 0.77rem;
+  font-weight: 500;
+}
+
+.submitButton {
+  text-align: center;
+}
+
+.submitButton button {
+  padding: 12px 40px;
+  font-size: 1rem;
+  background-color: #cca353;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.5s;
+
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.35);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.submitButton button:hover {
+  cursor: pointer;
+  background-color: #a7874b;
+}
+
+.submitButton button:active {
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
+}
